@@ -69,14 +69,14 @@ log/
 *.tflite
 *.pb
 
-# Video files (large files)
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
+# Video files (large files) - but keep data/ structure
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mov
+data/videos/*.mkv
+data/videos/*.wmv
+data/videos/*.flv
+data/videos/*.webm
 
 # Image files
 *.jpg
