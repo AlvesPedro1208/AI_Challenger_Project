@@ -1,0 +1,234 @@
+2025-09-25 19:17:00,082 - video_upload - INFO - UPLOAD_START - Arquivo: video04.mp4
+2025-09-25 19:17:00,082 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=2628923
+2025-09-25 19:17:00,082 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "2629107",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Opera GX\";v=\"122\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarywWLtflPVlsl9RG6G",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6"
+}
+2025-09-25 19:17:00,082 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)"
+}
+2025-09-25 19:17:00,082 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2979074048,
+  "file_size": 2628923
+}
+2025-09-25 19:17:00,082 - video_upload - INFO - VALIDATION - video04.mp4: VÁLIDO
+2025-09-25 19:17:00,083 - video_upload - DEBUG - VALIDATION_SUCCESS - video04.mp4: tipo=video/mp4
+2025-09-25 19:17:00,083 - video_upload - INFO - FILE_SAVE_START - video04.mp4 -> ../data/videos/video04.mp4
+2025-09-25 19:17:00,109 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video04.mp4: 1048576/2628923 bytes (39.9%)
+2025-09-25 19:17:00,134 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video04.mp4: 2097152/2628923 bytes (79.8%)
+2025-09-25 19:17:00,148 - video_upload - INFO - FILE_SAVE_COMPLETE - video04.mp4: 2628923 bytes salvos em ../data/videos/video04.mp4
+2025-09-25 19:17:00,148 - video_upload - INFO - UPLOAD_SUCCESS - video04.mp4 processado em 0.07s
+2025-09-25 19:17:00,148 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video04.mp4
+2025-09-25 19:35:42,711 - video_upload - INFO - UPLOAD_START - Arquivo: video0 (5).mp4
+2025-09-25 19:35:42,711 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=9376359
+2025-09-25 19:35:42,712 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "9376546",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Opera GX\";v=\"122\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryiBBgoaFsrahPjMXM",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6"
+}
+2025-09-25 19:35:42,712 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)"
+}
+2025-09-25 19:35:42,712 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2930556928,
+  "file_size": 9376359
+}
+2025-09-25 19:35:42,712 - video_upload - INFO - VALIDATION - video0 (5).mp4: VÁLIDO
+2025-09-25 19:35:42,712 - video_upload - DEBUG - VALIDATION_SUCCESS - video0 (5).mp4: tipo=video/mp4
+2025-09-25 19:35:42,712 - video_upload - INFO - FILE_SAVE_START - video0 (5).mp4 -> ../data/videos/video0 (5).mp4
+2025-09-25 19:35:42,740 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 1048576/9376359 bytes (11.2%)
+2025-09-25 19:35:42,764 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 2097152/9376359 bytes (22.4%)
+2025-09-25 19:35:42,790 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 3145728/9376359 bytes (33.5%)
+2025-09-25 19:35:42,817 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 4194304/9376359 bytes (44.7%)
+2025-09-25 19:35:42,843 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 5242880/9376359 bytes (55.9%)
+2025-09-25 19:35:42,868 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 6291456/9376359 bytes (67.1%)
+2025-09-25 19:35:42,894 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 7340032/9376359 bytes (78.3%)
+2025-09-25 19:35:42,919 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (5).mp4: 8388608/9376359 bytes (89.5%)
+2025-09-25 19:35:42,944 - video_upload - INFO - FILE_SAVE_COMPLETE - video0 (5).mp4: 9376359 bytes salvos em ../data/videos/video0 (5).mp4
+2025-09-25 19:35:42,944 - video_upload - INFO - UPLOAD_SUCCESS - video0 (5).mp4 processado em 0.23s
+2025-09-25 19:35:42,944 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video0 (5).mp4
+2025-09-25 20:18:58,550 - video_upload - INFO - UPLOAD_START - Arquivo: video0 (3).mp4
+2025-09-25 20:18:58,551 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=4440567
+2025-09-25 20:18:58,551 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "4440754",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Opera GX\";v=\"122\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryIKw8ThIOSMxB7IXg",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6"
+}
+2025-09-25 20:18:58,551 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-1)"
+}
+2025-09-25 20:18:58,551 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2899689472,
+  "file_size": 4440567
+}
+2025-09-25 20:18:58,551 - video_upload - INFO - VALIDATION - video0 (3).mp4: VÁLIDO
+2025-09-25 20:18:58,551 - video_upload - DEBUG - VALIDATION_SUCCESS - video0 (3).mp4: tipo=video/mp4
+2025-09-25 20:18:58,551 - video_upload - INFO - FILE_SAVE_START - video0 (3).mp4 -> ../data/videos/video0 (3).mp4
+2025-09-25 20:18:58,577 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (3).mp4: 1048576/4440567 bytes (23.6%)
+2025-09-25 20:18:58,602 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (3).mp4: 2097152/4440567 bytes (47.2%)
+2025-09-25 20:18:58,628 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (3).mp4: 3145728/4440567 bytes (70.8%)
+2025-09-25 20:18:58,653 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video0 (3).mp4: 4194304/4440567 bytes (94.5%)
+2025-09-25 20:18:58,660 - video_upload - INFO - FILE_SAVE_COMPLETE - video0 (3).mp4: 4440567 bytes salvos em ../data/videos/video0 (3).mp4
+2025-09-25 20:18:58,660 - video_upload - INFO - UPLOAD_SUCCESS - video0 (3).mp4 processado em 0.11s
+2025-09-25 20:18:58,660 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video0 (3).mp4
+2025-09-25 20:26:04,237 - video_upload - INFO - UPLOAD_START - Arquivo: video07.mp4
+2025-09-25 20:26:04,237 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=4717410
+2025-09-25 20:26:04,237 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "4717594",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryq40Msac8YBOAX1Lc",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US"
+}
+2025-09-25 20:26:04,237 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+}
+2025-09-25 20:26:04,238 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2889027584,
+  "file_size": 4717410
+}
+2025-09-25 20:26:04,238 - video_upload - INFO - VALIDATION - video07.mp4: VÁLIDO
+2025-09-25 20:26:04,238 - video_upload - DEBUG - VALIDATION_SUCCESS - video07.mp4: tipo=video/mp4
+2025-09-25 20:26:04,238 - video_upload - INFO - FILE_SAVE_START - video07.mp4 -> ../data/videos/video07.mp4
+2025-09-25 20:26:04,267 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video07.mp4: 1048576/4717410 bytes (22.2%)
+2025-09-25 20:26:04,297 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video07.mp4: 2097152/4717410 bytes (44.5%)
+2025-09-25 20:26:04,325 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video07.mp4: 3145728/4717410 bytes (66.7%)
+2025-09-25 20:26:04,352 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video07.mp4: 4194304/4717410 bytes (88.9%)
+2025-09-25 20:26:04,366 - video_upload - INFO - FILE_SAVE_COMPLETE - video07.mp4: 4717410 bytes salvos em ../data/videos/video07.mp4
+2025-09-25 20:26:04,366 - video_upload - INFO - UPLOAD_SUCCESS - video07.mp4 processado em 0.13s
+2025-09-25 20:26:04,366 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video07.mp4
+2025-09-25 20:45:56,010 - video_upload - INFO - UPLOAD_START - Arquivo: video08.mp4
+2025-09-25 20:45:56,010 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=2613793
+2025-09-25 20:45:56,010 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "2613977",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryNEe5SAgp1w5Pc8ne",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US"
+}
+2025-09-25 20:45:56,010 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+}
+2025-09-25 20:45:56,011 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2849771520,
+  "file_size": 2613793
+}
+2025-09-25 20:45:56,011 - video_upload - INFO - VALIDATION - video08.mp4: VÁLIDO
+2025-09-25 20:45:56,011 - video_upload - DEBUG - VALIDATION_SUCCESS - video08.mp4: tipo=video/mp4
+2025-09-25 20:45:56,011 - video_upload - INFO - FILE_SAVE_START - video08.mp4 -> ../data/videos/video08.mp4
+2025-09-25 20:45:56,033 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video08.mp4: 1048576/2613793 bytes (40.1%)
+2025-09-25 20:45:56,053 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video08.mp4: 2097152/2613793 bytes (80.2%)
+2025-09-25 20:45:56,063 - video_upload - INFO - FILE_SAVE_COMPLETE - video08.mp4: 2613793 bytes salvos em ../data/videos/video08.mp4
+2025-09-25 20:45:56,064 - video_upload - INFO - UPLOAD_SUCCESS - video08.mp4 processado em 0.05s
+2025-09-25 20:45:56,064 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video08.mp4
+2025-09-25 20:48:22,265 - video_upload - INFO - UPLOAD_START - Arquivo: video09.mp4
+2025-09-25 20:48:22,266 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=4440567
+2025-09-25 20:48:22,266 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "4440751",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarypPaBH6SbDJB71MVC",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US"
+}
+2025-09-25 20:48:22,266 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+}
+2025-09-25 20:48:22,266 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "../data/videos",
+  "available_space": 2846507008,
+  "file_size": 4440567
+}
+2025-09-25 20:48:22,266 - video_upload - INFO - VALIDATION - video09.mp4: VÁLIDO
+2025-09-25 20:48:22,266 - video_upload - DEBUG - VALIDATION_SUCCESS - video09.mp4: tipo=video/mp4
+2025-09-25 20:48:22,267 - video_upload - INFO - FILE_SAVE_START - video09.mp4 -> ../data/videos/video09.mp4
+2025-09-25 20:48:22,297 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video09.mp4: 1048576/4440567 bytes (23.6%)
+2025-09-25 20:48:22,326 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video09.mp4: 2097152/4440567 bytes (47.2%)
+2025-09-25 20:48:22,354 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video09.mp4: 3145728/4440567 bytes (70.8%)
+2025-09-25 20:48:22,383 - video_upload - DEBUG - FILE_SAVE_PROGRESS - video09.mp4: 4194304/4440567 bytes (94.5%)
+2025-09-25 20:48:22,392 - video_upload - INFO - FILE_SAVE_COMPLETE - video09.mp4: 4440567 bytes salvos em ../data/videos/video09.mp4
+2025-09-25 20:48:22,392 - video_upload - INFO - UPLOAD_SUCCESS - video09.mp4 processado em 0.13s
+2025-09-25 20:48:22,392 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: ../data/videos/video09.mp4

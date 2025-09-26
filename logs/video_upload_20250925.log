@@ -1,0 +1,74 @@
+2025-09-25 12:15:20,339 - video_upload - INFO - UPLOAD_START - Arquivo: Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:15:20,340 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=2842104
+2025-09-25 12:15:20,340 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "2842337",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarypCE9aglhKSeEMkjV",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US"
+}
+2025-09-25 12:15:20,340 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+}
+2025-09-25 12:15:20,341 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "data/videos",
+  "available_space": 4308070400,
+  "file_size": 2842104
+}
+2025-09-25 12:15:20,341 - video_upload - INFO - VALIDATION - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: VÁLIDO
+2025-09-25 12:15:20,341 - video_upload - DEBUG - VALIDATION_SUCCESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: tipo=video/mp4
+2025-09-25 12:15:20,341 - video_upload - INFO - FILE_SAVE_START - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4 -> data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:15:20,364 - video_upload - DEBUG - FILE_SAVE_PROGRESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 1048576/2842104 bytes (36.9%)
+2025-09-25 12:15:20,386 - video_upload - DEBUG - FILE_SAVE_PROGRESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 2097152/2842104 bytes (73.8%)
+2025-09-25 12:15:20,400 - video_upload - INFO - FILE_SAVE_COMPLETE - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 2842104 bytes salvos em data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:15:20,404 - video_upload - INFO - UPLOAD_SUCCESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4 processado em 0.06s
+2025-09-25 12:15:20,404 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:26:30,594 - video_upload - INFO - UPLOAD_START - Arquivo: Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:26:30,594 - video_upload - DEBUG - UPLOAD_START - Detalhes: tipo=video/mp4, tamanho=2842104
+2025-09-25 12:26:30,594 - video_upload - DEBUG - REQUEST_DETAILS - Headers: {
+  "host": "127.0.0.1:8000",
+  "connection": "keep-alive",
+  "content-length": "2842337",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+  "content-type": "multipart/form-data; boundary=----WebKitFormBoundarykRTuUHAbp8l0kgZB",
+  "sec-ch-ua-mobile": "?0",
+  "origin": "http://localhost:8080",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "http://localhost:8080/",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US"
+}
+2025-09-25 12:26:30,594 - video_upload - DEBUG - REQUEST_DETAILS - Client: {
+  "host": "127.0.0.1",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+}
+2025-09-25 12:26:30,594 - video_upload - DEBUG - SYSTEM_INFO - {
+  "upload_directory": "data/videos",
+  "available_space": 4281409536,
+  "file_size": 2842104
+}
+2025-09-25 12:26:30,594 - video_upload - INFO - VALIDATION - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: VÁLIDO
+2025-09-25 12:26:30,594 - video_upload - DEBUG - VALIDATION_SUCCESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: tipo=video/mp4
+2025-09-25 12:26:30,594 - video_upload - INFO - FILE_SAVE_START - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4 -> data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:26:30,625 - video_upload - DEBUG - FILE_SAVE_PROGRESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 1048576/2842104 bytes (36.9%)
+2025-09-25 12:26:30,650 - video_upload - DEBUG - FILE_SAVE_PROGRESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 2097152/2842104 bytes (73.8%)
+2025-09-25 12:26:30,671 - video_upload - INFO - FILE_SAVE_COMPLETE - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4: 2842104 bytes salvos em data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
+2025-09-25 12:26:30,671 - video_upload - INFO - UPLOAD_SUCCESS - Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4 processado em 0.08s
+2025-09-25 12:26:30,671 - video_upload - DEBUG - UPLOAD_SUCCESS - Arquivo salvo: data/videos/Criação_de_Vídeo_de_Supermercado_Simulando_Segurança.mp4
