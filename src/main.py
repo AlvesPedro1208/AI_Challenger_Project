@@ -1017,3 +1017,20 @@ async def save_analysis_to_database(session: AnalysisSession):
     except Exception as e:
         print(f"Erro ao salvar dados no banco: {e}")
         # Não levantar exceção para não interromper o fluxo
+
+# Configuração para iniciar o servidor
+if __name__ == "__main__":
+    import uvicorn
+    print("🚀 Iniciando servidor FastAPI...")
+    print("📍 Backend disponível em: http://localhost:8000")
+    print("📖 Documentação da API: http://localhost:8000/docs")
+    print("⚠️  Pressione Ctrl+C para parar o servidor")
+    print("-" * 50)
+    
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True,
+        log_level="info"
+    )
