@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files (large files)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Video files (large files) - but keep data/ structure
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mov
+data/videos/*.mkv
+data/videos/*.wmv
+data/videos/*.flv
+data/videos/*.webm
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pkl
+*.pickle
+
+# OpenCV
+*.xml
+*.yml
+*.yaml
+
+# Oracle
+*.ora
+*.ora.bak
+
+# PowerShell
+*.ps1.bak
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache
+.cache/
+cache/
+
+# Output files
+output/
+results/
+exports/
+
+# Config files with sensitive data
+config.env
+secrets.json
+credentials.json
